@@ -470,11 +470,14 @@ a {
 
     /* Trending End  */
     /* Sharing Start  */
+    .sharing {
+        padding: 0 20px;
+    }
     .sharing .share {
         background-image: linear-gradient(to right, #3f2321, transparent), url(../images/banner-2.png);
         background-size: 100% 100%;
         background-position: center center;
-        padding: 100px 0;
+        padding: 100px 0px;
         border-radius: 20px;
     }
 
@@ -494,8 +497,6 @@ a {
     .sharing .share .share-text p {
         margin-bottom: 20px;
         line-height: 2;
-
-
     }
 
     .sharing .share .share-text a {
